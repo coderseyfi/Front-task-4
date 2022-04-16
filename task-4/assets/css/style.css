@@ -1,0 +1,200 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.login-box {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    padding: 6px 35px 75px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.google {
+    width: 100px;
+}
+
+.centered {
+    padding-bottom: 16px;
+    padding-top: 16px;
+    text-align: center;
+    font-family: "Google Sans", "Noto Sans Myanmar UI", arial, sans-serif;
+}
+
+.google-acc {
+    font-size: 17px;
+}
+
+.next-button {
+    background-color: #1a73e8;
+    padding: 5px;
+    border: 1px solid transparent;
+    outline: none;
+    color: #fff;
+    border-radius: 3px;
+    padding: 9px 25px;
+    font-weight: bold;
+}
+
+.upper-part {
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.google-logo {
+    background-image: url("../images/Google_2015_logo.svg.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 24px;
+    align-items: center;
+    padding-bottom: 26px;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.sign-in {
+    margin-bottom: 10px;
+    font-size: 24px;
+}
+
+.form {
+    position: relative;
+}
+
+.email {
+    height: 55px;
+    padding-left: 10px;
+    font-size: 15px;
+    border: 1px solid #dadce0;
+    border-radius: 5px;
+}
+
+.email-phone {
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    font-size: 17px;
+    color: #5f6368;
+    font-family: "Noto Sans Myanmar UI", arial, sans-serif;
+    padding: 10px 12px;
+    background-color: white;
+    transition: 0.3s;
+    border: none;
+    z-index: 1;
+    pointer-events: none;
+    outline: none;
+}
+
+.email:focus+.email-phone {
+    top: -15px;
+    left: 9px;
+    z-index: 10;
+    font-size: 12px;
+    color: #1a73e8;
+}
+
+.email:not(:placeholder-shown)+.email-phone {
+    top: -15px;
+    left: 9px;
+    z-index: 10;
+    font-size: 12px;
+}
+
+::placeholder {
+    color: transparent;
+}
+
+.forgot {
+    margin-top: 15px;
+    color: #1a73e8;
+    margin-bottom: 15px;
+}
+
+.blue-link {
+    text-decoration: none;
+    color: #1a73e8;
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: "Google Sans", Roboto, Arial, sans-serif;
+}
+
+.email-part {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 35px;
+}
+
+.learn-more {
+    margin-bottom: 35px;
+}
+
+.end-part {
+    display: flex;
+    justify-content: space-between;
+}
+
+.end-container {
+    margin-top: 20px;
+    display: flex;
+}
+
+.same-font {
+    font-family: "Google Sans", "Noto Sans Myanmar UI", arial, sans-serif;
+}
+
+.use-guest {
+    margin-bottom: 2px;
+    color: #63676c;
+    font-size: 15px;
+}
+
+.languages {
+    border: none;
+    font-size: 12px;
+}
+
+.end-help {
+    margin-left: 15px;
+    font-family: roboto, "Noto Sans Myanmar UI", arial, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.gray-link {
+    text-decoration: none;
+    color: #757575;
+    margin-right: 12px;
+}
+
+.end-nav {
+    margin-left: 115px;
+}
+
+.create-acc {
+    border: 1px solid rgb(255, 255, 255);
+    background-color: rgb(255, 255, 255);
+    border-radius: 3px;
+    color: #1a73e8;
+    padding: 5px;
+    transition: 0.3s;
+}
+
+.create-acc:hover {
+    border: 1px sloid #bbcce3;
+    background-color: #a8c6ef1a;
+    border-radius: 3px;
+    color: #0058ca;
+}
